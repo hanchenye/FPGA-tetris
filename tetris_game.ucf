@@ -1,0 +1,60 @@
+NET clk LOC = AN20;
+NET clk IOSTANDARD = LVCMOS33;
+NET clk TNM_NET = "clk";
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET rst_n PULLUP;
+NET rst_n TIG;
+NET rst_n LOC = AJ22;
+NET rst_n IOSTANDARD= LVCMOS33;
+
+NET left LOC = AP20;
+NET left SLEW = FAST;
+NET left IOSTANDARD = LVCMOS33;
+NET left DRIVE = 8;
+
+NET down LOC = AL16;
+NET down SLEW = FAST;
+NET down IOSTANDARD = LVCMOS33;
+NET down DRIVE = 8;
+
+NET right LOC = AM18;
+NET right SLEW = FAST;
+NET right IOSTANDARD = LVCMOS33;
+NET right DRIVE = 8;
+
+NET rotateR LOC = AL18;
+NET rotateR SLEW = FAST;
+NET rotateR IOSTANDARD = LVCMOS33;
+NET rotateR DRIVE = 8;
+
+
+NET hsync_out LOC = C25;
+NET hsync_out SLEW = FAST;
+NET hsync_out IOSTANDARD = LVCMOS33;
+NET hsync_out DRIVE = 8;
+
+NET vsync_out LOC = E26;
+NET vsync_out SLEW = FAST;
+NET vsync_out IOSTANDARD = LVCMOS33;
+NET vsync_out DRIVE = 8;
+
+NET vga_clk LOC = C30;
+NET vga_clk IOSTANDARD = LVCMOS33;
+NET vga_clk SLEW = FAST;
+NET vga_clk DRIVE = 8;
+
+NET red_out LOC = F26;
+NET red_out SLEW = FAST;
+NET red_out DRIVE = 8;
+NET red_out IOSTANDARD = LVCMOS33;
+
+NET green_out LOC = C28;
+NET green_out SLEW = FAST;
+NET green_out DRIVE = 8;
+NET green_out IOSTANDARD = LVCMOS33;
+ 
+NET blue_out LOC = F29;
+NET blue_out SLEW = FAST;
+NET blue_out DRIVE = 8;
+NET blue_out IOSTANDARD = LVCMOS33;
